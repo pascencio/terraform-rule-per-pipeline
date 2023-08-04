@@ -16,7 +16,7 @@ export AWS_DEFAULT_REGION="us-east-2" # Replace with your region
 
 File `terraform.tfvars` with this variables:
 
-```terraform
+```hcl
 codepipeline_role_arn="your-role-arn"
 codepipeline_name="your-pipeline-name"
 codepipeline_bucket_name="your-bucket"
