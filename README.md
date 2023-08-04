@@ -32,6 +32,7 @@ codebuild_environment_variables = "[{\"name\":\"SOME_VAR\",\"value\":\"some valu
 Let's go
 
 ```bash
+source .env
 terraform init
 terraform plan
 terraform apply
